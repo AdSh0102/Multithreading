@@ -11,9 +11,15 @@ class Rectangle{
         }
 };
 
-double area(double length = 1, double width = 1);
-
-double area(double length = 10);
+namespace two_args
+{
+    double area(double length = 1, double width = 1);
+}
 
 double area(Rectangle rectangle);
+
+namespace one_arg
+{
+    double area(double length = 10);
+}
 #endif
