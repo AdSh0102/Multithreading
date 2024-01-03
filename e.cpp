@@ -1,6 +1,6 @@
 #include <iostream>
 
-template<typename T>
+template<class T>
 void swap(T& a, T& b)
 {
     T c = a;
